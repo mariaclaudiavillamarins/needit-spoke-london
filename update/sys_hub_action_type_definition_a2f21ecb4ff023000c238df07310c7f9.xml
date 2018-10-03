@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property.</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""},{"name":"{{step[c4eb7fec-773c-4a48-8d95-14f73c690000].property_value}}","label":"step➛Look up Application Property➛property_value","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>5741c71b4fb023000c238df07310c788</latest_snapshot>
+        <master_snapshot>ab41c71b4fb023000c238df07310c7c0</master_snapshot>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-01 19:47:10</sys_created_on>
+        <sys_id>a2f21ecb4ff023000c238df07310c7f9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_254903_needit_sp">e2529a474ff023000c238df07310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">e2529a474ff023000c238df07310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a2f21ecb4ff023000c238df07310c7f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-02 17:48:04</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a2f21ecb4ff023000c238df07310c7f9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a2f21ecb4ff023000c238df07310c7f9"/>
+    <sys_element_mapping action="delete_multiple" query="id=a2f21ecb4ff023000c238df07310c7f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value</field>
+        <id>a2f21ecb4ff023000c238df07310c7f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-02 16:24:05</sys_created_on>
+        <sys_id>a91eaa5f4f7023000c238df07310c772</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-02 16:24:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a2f21ecb4ff023000c238df07310c7f9</table>
+        <value>{{step[c4eb7fec-773c-4a48-8d95-14f73c690000].property_value}}</value>
+    </sys_element_mapping>
+</record_update>
